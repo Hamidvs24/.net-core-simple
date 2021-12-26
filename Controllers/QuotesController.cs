@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace QuotesApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("v1/[controller]")]
     [ApiController]
     public class QuotesController : ControllerBase
     {
